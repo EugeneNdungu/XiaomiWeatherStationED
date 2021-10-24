@@ -194,6 +194,10 @@
 <wire x1="70" y1="0" x2="70" y2="100" width="0" layer="20"/>
 <wire x1="70" y1="100" x2="0" y2="100" width="0" layer="20"/>
 <wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
+<hole x="3" y="97" drill="2.4"/>
+<hole x="67" y="97" drill="2.4"/>
+<hole x="3" y="3" drill="2.4"/>
+<hole x="67" y="3" drill="2.4"/>
 </plain>
 <libraries>
 <library name="SSFD - ESP32 WEMOS LOLIN CHINA W_BATT" urn="urn:adsk.eagle:library:31562966">
