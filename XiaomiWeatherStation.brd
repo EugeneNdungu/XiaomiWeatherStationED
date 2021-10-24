@@ -1872,29 +1872,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package3d>
 </packages3d>
 </library>
-<library name="adafruit" urn="urn:adsk.eagle:library:31565267">
-<packages>
-<package name="1X2-3.5MM" urn="urn:adsk.eagle:footprint:31565791/1" library_version="1">
-<wire x1="-3.4" y1="3.4" x2="-3.4" y2="-2.2" width="0.127" layer="21"/>
-<wire x1="-3.4" y1="-2.2" x2="-3.4" y2="-3.6" width="0.127" layer="21"/>
-<wire x1="-3.4" y1="-3.6" x2="3.6" y2="-3.6" width="0.127" layer="21"/>
-<wire x1="3.6" y1="-3.6" x2="3.6" y2="-2.2" width="0.127" layer="21"/>
-<wire x1="3.6" y1="-2.2" x2="3.6" y2="3.4" width="0.127" layer="21"/>
-<wire x1="3.6" y1="3.4" x2="-3.4" y2="3.4" width="0.127" layer="21"/>
-<wire x1="-3.4" y1="-2.2" x2="3.6" y2="-2.2" width="0.127" layer="21"/>
-<pad name="1" x="1.8" y="0" drill="1" diameter="2.1844"/>
-<pad name="2" x="-1.7" y="0" drill="1" diameter="2.1844"/>
-<text x="3" y="5" size="1.27" layer="25" rot="R180">&gt;NAME</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="1X2-3.5MM" urn="urn:adsk.eagle:package:31566436/3" type="model" library_version="4">
-<packageinstances>
-<packageinstance name="1X2-3.5MM"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:31567038">
 <description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
 This library contains electrically-functional connectors. 
@@ -1936,6 +1913,35 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
+<package name="SCREWTERMINAL-5MM-2" urn="urn:adsk.eagle:footprint:31567189/1" library_version="1">
+<description>&lt;h3&gt;Screw Terminal  5mm Pitch -2 Pin PTH&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Pin pitch: 5mm/197mil&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.sparkfun.com/datasheets/Prototyping/Screw-Terminal-5mm.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_02&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-3.1" y1="4.2" x2="8.1" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="8.1" y1="4.2" x2="8.1" y2="-2.3" width="0.2032" layer="21"/>
+<wire x1="8.1" y1="-2.3" x2="8.1" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="8.1" y1="-3.3" x2="-3.1" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="-3.1" y1="-3.3" x2="-3.1" y2="-2.3" width="0.2032" layer="21"/>
+<wire x1="-3.1" y1="-2.3" x2="-3.1" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="8.1" y1="-2.3" x2="-3.1" y2="-2.3" width="0.2032" layer="21"/>
+<wire x1="-3.1" y1="-1.35" x2="-3.7" y2="-1.35" width="0.2032" layer="51"/>
+<wire x1="-3.7" y1="-1.35" x2="-3.7" y2="-2.35" width="0.2032" layer="51"/>
+<wire x1="-3.7" y1="-2.35" x2="-3.1" y2="-2.35" width="0.2032" layer="51"/>
+<wire x1="8.1" y1="4" x2="8.7" y2="4" width="0.2032" layer="51"/>
+<wire x1="8.7" y1="4" x2="8.7" y2="3" width="0.2032" layer="51"/>
+<wire x1="8.7" y1="3" x2="8.1" y2="3" width="0.2032" layer="51"/>
+<circle x="2.5" y="3.7" radius="0.2828" width="0.127" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.3" diameter="2.032" shape="square"/>
+<pad name="2" x="5" y="0" drill="1.3" diameter="2.032"/>
+<text x="-1.27" y="2.54" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="1.27" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="1X06_LONGPADS" urn="urn:adsk.eagle:package:31567581/1" type="box" library_version="1">
@@ -1949,6 +1955,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;/ul&gt;&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="1X06_LONGPADS"/>
+</packageinstances>
+</package3d>
+<package3d name="SCREWTERMINAL-5MM-2" urn="urn:adsk.eagle:package:31567599/1" type="box" library_version="1">
+<description>&lt;h3&gt;Screw Terminal  5mm Pitch -2 Pin PTH&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Pin pitch: 5mm/197mil&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.sparkfun.com/datasheets/Prototyping/Screw-Terminal-5mm.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_02&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SCREWTERMINAL-5MM-2"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2267,9 +2287,6 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="COMP-14214" x="42" y="24" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="30.57" y="13.84" size="1.27" layer="27"/>
 </element>
-<element name="J1" library="adafruit" library_urn="urn:adsk.eagle:library:31565267" package="1X2-3.5MM" package3d_urn="urn:adsk.eagle:package:31566436/3" value="1X2-3.5MM" x="55" y="5" smashed="yes" rot="R180">
-<attribute name="NAME" x="52" y="0" size="1.27" layer="25"/>
-</element>
 <element name="SD_CARD" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:31567038" package="1X06_LONGPADS" package3d_urn="urn:adsk.eagle:package:31567581/1" value="" x="13.9" y="20.3" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="15.932" y="21.57" locked="yes" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="11.233" y="21.57" locked="yes" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
@@ -2278,6 +2295,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="33.693" y="3.59" size="1.778" layer="25" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="0" x="38.9" y="7.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="36.36" y="3.463" size="1.778" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:31567038" package="SCREWTERMINAL-5MM-2" package3d_urn="urn:adsk.eagle:package:31567599/1" value="" x="55.9" y="5.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="57.17" y="3.26" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="SF_SKU" value="PRT-08432" x="55.9" y="5.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="57.17" y="4.53" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 </elements>
 <signals>
@@ -2478,40 +2500,12 @@ design rules under a new name.</description>
 <contactref element="D1" pad="2"/>
 <wire x1="48.52" y1="17.995" x2="55.075" y2="17.995" width="1.27" layer="16"/>
 <wire x1="55.075" y1="17.995" x2="57" y2="19.12" width="1.27" layer="16"/>
-<wire x1="43.43" y1="13.95973125" x2="43.43" y2="23.94026875" width="1.27" layer="16"/>
-<wire x1="44.7" y1="8.7" x2="44.7" y2="12.68973125" width="1.27" layer="16"/>
-<wire x1="44.7" y1="12.68973125" x2="43.43" y2="13.95973125" width="1.27" layer="16"/>
-<wire x1="43.43" y1="23.94026875" x2="46.28973125" y2="26.8" width="1.27" layer="16"/>
-<wire x1="57" y1="25.1" x2="57" y2="19.12" width="1.27" layer="16"/>
-<wire x1="46.28973125" y1="26.8" x2="55.3" y2="26.8" width="1.27" layer="16"/>
-<wire x1="55.3" y1="26.8" x2="57" y2="25.1" width="1.27" layer="16"/>
 <contactref element="Q1" pad="C"/>
 <wire x1="40.17" y1="7.4" x2="43.4" y2="7.4" width="1.27" layer="16"/>
-<wire x1="43.4" y1="7.4" x2="44.7" y2="8.7" width="1.27" layer="16"/>
-</signal>
-<signal name="REL_COM">
-<contactref element="K1" pad="1"/>
-<contactref element="J1" pad="1"/>
-<wire x1="50.52" y1="23.995" x2="46.695" y2="23.995" width="1.27" layer="16"/>
-<wire x1="46.695" y1="23.995" x2="45.7" y2="23" width="1.27" layer="16"/>
-<wire x1="45.7" y1="23" x2="45.7" y2="14.9" width="1.27" layer="16"/>
-<wire x1="48.6" y1="12" x2="48.6" y2="7.2" width="1.27" layer="16"/>
-<wire x1="48.6" y1="7.2" x2="50.8" y2="5" width="1.27" layer="16"/>
-<wire x1="50.8" y1="5" x2="53.2" y2="5" width="1.27" layer="16"/>
-<wire x1="45.7" y1="14.9" x2="48.6" y2="12" width="1.27" layer="16"/>
-</signal>
-<signal name="REL_NO">
-<contactref element="K1" pad="3"/>
-<contactref element="J1" pad="2"/>
-<wire x1="56.7" y1="5" x2="56.7" y2="12.2" width="1.27" layer="16"/>
-<wire x1="55.1" y1="13.8" x2="50.6" y2="13.8" width="1.27" layer="16"/>
-<via x="50.6" y="13.8" extent="1-16" drill="1" diameter="1.5"/>
-<wire x1="50.6" y1="13.8" x2="40.4" y2="13.8" width="1.27" layer="1"/>
-<via x="40.4" y="13.8" extent="1-16" drill="1" diameter="1.5"/>
-<wire x1="56.7" y1="12.2" x2="55.1" y2="13.8" width="1.27" layer="16"/>
-<wire x1="36.32" y1="29.995" x2="36.32" y2="25.78" width="1.27" layer="16"/>
-<wire x1="40.4" y1="21.7" x2="40.4" y2="13.8" width="1.27" layer="16"/>
-<wire x1="36.32" y1="25.78" x2="40.4" y2="21.7" width="1.27" layer="16"/>
+<wire x1="44.9" y1="8.9" x2="44.9" y2="16.7" width="1.27" layer="16"/>
+<wire x1="44.9" y1="16.7" x2="46.195" y2="17.995" width="1.27" layer="16"/>
+<wire x1="46.195" y1="17.995" x2="48.52" y2="17.995" width="1.27" layer="16"/>
+<wire x1="43.4" y1="7.4" x2="44.9" y2="8.9" width="1.27" layer="16"/>
 </signal>
 <signal name="RELAY">
 <contactref element="IC1" pad="15"/>
@@ -2529,6 +2523,26 @@ design rules under a new name.</description>
 <wire x1="38.314" y1="9.686" x2="38" y2="10" width="1.27" layer="16"/>
 </signal>
 <signal name="N$1">
+</signal>
+<signal name="REL_NO">
+<contactref element="K1" pad="3"/>
+<wire x1="36.32" y1="29.995" x2="36.32" y2="25.22" width="1.27" layer="16"/>
+<wire x1="36.32" y1="25.22" x2="36.3" y2="25.2" width="1.27" layer="16"/>
+<via x="36.3" y="25.2" extent="1-16" drill="1" diameter="1.3"/>
+<wire x1="36.3" y1="25.2" x2="41.8" y2="25.2" width="1.27" layer="1"/>
+<wire x1="43.5" y1="23.5" x2="43.5" y2="14.7" width="1.27" layer="1"/>
+<wire x1="41.8" y1="25.2" x2="43.5" y2="23.5" width="1.27" layer="1"/>
+<contactref element="J1" pad="2"/>
+<wire x1="46.2" y1="12" x2="50.8" y2="12" width="1.27" layer="1"/>
+<via x="50.8" y="12" extent="1-16" drill="1" diameter="1.3"/>
+<wire x1="50.8" y1="12" x2="50.8" y2="5.9" width="1.27" layer="16"/>
+<wire x1="50.8" y1="5.9" x2="50.9" y2="5.8" width="1.27" layer="16"/>
+<wire x1="43.5" y1="14.7" x2="46.2" y2="12" width="1.27" layer="1"/>
+</signal>
+<signal name="REL_COM">
+<contactref element="K1" pad="1"/>
+<contactref element="J1" pad="1"/>
+<wire x1="55.9" y1="5.8" x2="50.52" y2="23.995" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
