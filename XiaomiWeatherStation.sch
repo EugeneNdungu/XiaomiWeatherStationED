@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -814,7 +814,7 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DC-DC-STEP-DOWN-LM2596" urn="urn:adsk.eagle:component:31562854/2" library_version="2">
+<deviceset name="DC-DC-STEP-DOWN-LM2596" urn="urn:adsk.eagle:component:31562854/2" library_version="3">
 <description>&lt;b&gt;DC/DC Step-Down Regulator&lt;/b&gt; based on &lt;b&gt;LM2596-ADJ&lt;/b&gt; chip
 &lt;p&gt;&lt;b&gt;LM2596&lt;/b&gt; datasheet available here:&lt;br /&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/lm2596.pdf"&gt;http://www.ti.com/lit/ds/symlink/lm2596.pdf&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;&lt;a href="http://www.ebay.com/sch/lm2596+power+regulator"&gt;Click here to find device on ebay.com&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
@@ -7729,7 +7729,7 @@ Alternate pin configuration
 <packageinstance name="JST-2-SMD-VERT"/>
 </packageinstances>
 </package3d>
-<package3d name="SCREWTERMINAL-5MM-2" urn="urn:adsk.eagle:package:31567599/1" type="box" library_version="1">
+<package3d name="SCREWTERMINAL-5MM-2" urn="urn:adsk.eagle:package:31567599/2" type="model" library_version="2">
 <description>&lt;h3&gt;Screw Terminal  5mm Pitch -2 Pin PTH&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
@@ -8423,7 +8423,7 @@ part number 2062-2P from STA</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONN_02" urn="urn:adsk.eagle:component:31567974/1" prefix="J" uservalue="yes" library_version="1">
+<deviceset name="CONN_02" urn="urn:adsk.eagle:component:31567974/2" prefix="J" uservalue="yes" library_version="2">
 <description>&lt;h3&gt;Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections&lt;/h3&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -8549,7 +8549,7 @@ part number 2062-2P from STA</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:31567599/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31567599/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -8991,7 +8991,7 @@ grid 2.3 mm</description>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SD_CARD" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:31567038" deviceset="CONN_06" device="LONGPADS" package3d_urn="urn:adsk.eagle:package:31567581/1"/>
 <part name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:31570476" deviceset="BD437" device="" package3d_urn="urn:adsk.eagle:package:31570603/2"/>
-<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:31567038" deviceset="CONN_02" device="5MM" package3d_urn="urn:adsk.eagle:package:31567599/1"/>
+<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:31567038" deviceset="CONN_02" device="5MM" package3d_urn="urn:adsk.eagle:package:31567599/2"/>
 </parts>
 <sheets>
 <sheet>

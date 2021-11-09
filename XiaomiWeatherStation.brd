@@ -188,7 +188,7 @@
 <layer number="255" name="255bmp" color="1" fill="10" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYzhmNzA4" projecturn="a.cGVyc29uYWw6dWUyYzhmNzA4IzIwMTkwMTMwMTczMjM4ODgx" f3durn="urn:adsk.wipprod:dm.lineage:spPOfCMSSPOzXMC2o5ZuhA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="b0fe3381-a17d-4749-aa34-8e1b42c0f3a5" lastsyncedrevisionid="b0fe3381-a17d-4749-aa34-8e1b42c0f3a5" lastboardhashguid="bfa94db5-b19a-87e9-10ab-6378246ddbf7" lastpushedtime="2021-10-17T12:46:15Z" linktopcb3d="true"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYzhmNzA4" projecturn="a.cGVyc29uYWw6dWUyYzhmNzA4IzIwMTkwMTMwMTczMjM4ODgx" f3durn="urn:adsk.wipprod:dm.lineage:spPOfCMSSPOzXMC2o5ZuhA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="199a9939-6ca1-449c-8d37-db30be5e7dd4" lastsyncedrevisionid="199a9939-6ca1-449c-8d37-db30be5e7dd4" lastboardhashguid="cdd145cb-bfe3-e544-9fc3-301cddd6bfee" lastpushedtime="2021-11-08T18:51:43Z" linktopcb3d="true"/>
 <plain>
 <wire x1="0" y1="0" x2="70" y2="0" width="0" layer="20"/>
 <wire x1="70" y1="0" x2="70" y2="100" width="0" layer="20"/>
@@ -1961,7 +1961,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packageinstance name="1X06_LONGPADS"/>
 </packageinstances>
 </package3d>
-<package3d name="SCREWTERMINAL-5MM-2" urn="urn:adsk.eagle:package:31567599/1" type="box" library_version="1">
+<package3d name="SCREWTERMINAL-5MM-2" urn="urn:adsk.eagle:package:31567599/2" type="model" library_version="2">
 <description>&lt;h3&gt;Screw Terminal  5mm Pitch -2 Pin PTH&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
@@ -2271,10 +2271,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="63.43" y="72" size="1.27" layer="25" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="40.57" y="72" size="1.27" layer="27" rot="R270" align="top-center"/>
 </element>
-<element name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="8.16" y="96.25" smashed="yes" rot="R90">
-<attribute name="NAME" x="6.3312" y="93.6338" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="POPULARITY" value="98" x="8.16" y="96.25" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="11.335" y="93.71" size="1.27" layer="27" rot="R90"/>
+<element name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="11.25" y="96.84" smashed="yes">
+<attribute name="NAME" x="8.6338" y="98.6688" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="98" x="11.25" y="96.84" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="8.71" y="93.665" size="1.27" layer="27"/>
 </element>
 <element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="1k" x="37" y="10" smashed="yes" rot="R90">
 <attribute name="NAME" x="35.7046" y="7.46" size="0.9906" layer="25" ratio="10" rot="R90"/>
@@ -2300,7 +2300,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="0" x="42.9" y="8.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="40.36" y="4.463" size="1.778" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:31567038" package="SCREWTERMINAL-5MM-2" package3d_urn="urn:adsk.eagle:package:31567599/1" value="" x="59.9" y="6.8" smashed="yes" rot="R180">
+<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:31567038" package="SCREWTERMINAL-5MM-2" package3d_urn="urn:adsk.eagle:package:31567599/2" value="" x="59.9" y="6.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="61.17" y="4.26" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="SF_SKU" value="PRT-08432" x="59.9" y="6.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="61.17" y="5.53" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
@@ -2479,9 +2479,11 @@ design rules under a new name.</description>
 <signal name="IN-">
 <contactref element="U$3" pad="IN-"/>
 <contactref element="JP3" pad="1"/>
-<wire x1="8.16" y1="94.98" x2="41.82" y2="94.98" width="1.27" layer="16"/>
-<wire x1="43.364" y1="93.436" x2="43.364" y2="91.812" width="1.27" layer="16"/>
-<wire x1="41.82" y1="94.98" x2="43.364" y2="93.436" width="1.27" layer="16"/>
+<wire x1="9.98" y1="96.84" x2="10" y2="96.82" width="1.27" layer="16"/>
+<wire x1="10" y1="96.82" x2="10" y2="94" width="1.27" layer="16"/>
+<wire x1="10" y1="94" x2="11" y2="93" width="1.27" layer="16"/>
+<wire x1="42.176" y1="93" x2="43.364" y2="91.812" width="1.27" layer="16"/>
+<wire x1="11" y1="93" x2="42.176" y2="93" width="1.27" layer="16"/>
 </signal>
 <signal name="3V7">
 <contactref element="U$3" pad="OUT+"/>
@@ -2495,9 +2497,9 @@ design rules under a new name.</description>
 <signal name="IN+">
 <contactref element="JP3" pad="2"/>
 <contactref element="U$3" pad="IN+"/>
-<wire x1="8.16" y1="97.52" x2="58.78" y2="97.52" width="1.27" layer="16"/>
-<wire x1="60.636" y1="95.664" x2="60.636" y2="91.812" width="1.27" layer="16"/>
-<wire x1="58.78" y1="97.52" x2="60.636" y2="95.664" width="1.27" layer="16"/>
+<wire x1="12.52" y1="96.84" x2="58.16" y2="96.84" width="1.27" layer="16"/>
+<wire x1="60.636" y1="94.364" x2="60.636" y2="91.812" width="1.27" layer="16"/>
+<wire x1="58.16" y1="96.84" x2="60.636" y2="94.364" width="1.27" layer="16"/>
 </signal>
 <signal name="COLLECTOR">
 <contactref element="K1" pad="5"/>
@@ -2562,10 +2564,9 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="23,16,16ee5f7e5a9e130e"/>
-<approved hash="5,16,d33a201422283613"/>
-<approved hash="5,16,1f2a9ec8aeea019e"/>
-<approved hash="5,16,4168d572c2a4f636"/>
+<approved hash="5,16,c914c6fef158b2c3"/>
+<approved hash="5,16,4b39201522333139"/>
+<approved hash="5,16,975a9e8fbea93cad"/>
 </errors>
 </board>
 </drawing>
